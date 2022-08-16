@@ -12,7 +12,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     // Do not verify email password on the clint side
     // Step-4: verify email and password
     if(email === 'hiperx1@gmail.com' && password === 'NEKbay1120134567'){
-        window.location.replace('bank.html');
+        window.location.href= 'bank.html';
     }
     else{
         alert('Tore Khayalam');
